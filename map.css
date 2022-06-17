@@ -1,0 +1,41 @@
+@font-face {
+  font-family: 'Binggrae-Bold';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2110@1.0/Binggrae-Bold.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body{
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+  
+  button {
+    font-weight: 400;
+    letter-spacing: -.2px;
+    word-break: break-all;
+    font-size: 12px;
+    color: #999;
+    line-height: 20px;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    overflow: hidden;
+    padding-bottom: 1px;
+  }
+  
+  a,
+  a:active {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  .flex {
+    display: flex;
+    align-items: center;
+  }
